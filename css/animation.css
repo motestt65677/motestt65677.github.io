@@ -1,0 +1,82 @@
+h1{
+	color:purple;
+}
+
+#box{
+
+	background-color: red;
+	width: 10em;
+	height: 10em;
+	animation-name:shift;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes shift{
+  0%{
+    margin-left: 0;
+  }
+  100%{
+  	margin-left: 50em;
+
+  }
+
+}
+
+#box2{
+
+	background-color: red;
+	width: 10em;
+	height: 10em;
+	animation-name:shift2;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes shift2{
+  0%{
+
+  }
+  100%{
+    transform: rotate(0.5turn);
+  }
+
+}
+
+
+
+
+#animation{
+
+	height: 100vh;
+	background-size: cover;
+	color: red;
+  font-size: 5em;
+  animation-name: change;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  background-color:black;
+	background-image: url(../pictures/toroko2.jpg);
+
+}
+
+
+
+
+
+@keyframes change{
+  0% {
+    background-color:black;
+    opacity: 1;
+  }
+
+  100%{
+  	background-color:black;
+    opacity: 0.6;
+
+  }
+}

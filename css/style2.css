@@ -1,0 +1,8 @@
+body {
+   background-image: url('../pictures/toroko2.jpg');
+   background-color: #cccccc;
+   background-size: cover;
+}
+#circle{
+  border-radius: 25px;
+}

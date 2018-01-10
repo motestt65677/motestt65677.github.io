@@ -1,0 +1,140 @@
+a{
+	color: #1aa3ff;
+}
+h1{
+	margin:0;
+
+}
+h2{
+	margin:0;
+}
+
+body{
+	margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+nav{
+
+  height: 5vh;
+	top: 0px;
+	position: relative;
+	text-align: center;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+
+
+#top-bar{
+	opacity: 0.8;
+	background-image: url(../pictures/toroko2.jpg);
+	background-color: darkred;
+  background-size: cover;
+	margin:0;
+  height: 55vh;
+  color: white;
+  position: relative;
+
+}
+
+.top-bar-container{
+	padding-top: 3.5em;
+	padding-left: 2em;
+
+}
+.top-bar-container2{
+
+	position: absolute;
+	bottom: 5em;
+	height: 2em;
+	width: 100%;
+}
+
+.top-bar-container h5{
+  margin: 0em;
+  margin-top: 0.5em;
+
+}
+
+.top-bar-container2 div{
+	display: inline-block;
+}
+
+#email{
+	float:right;
+	padding-right: 3em;
+}
+
+.button{
+	background-color: #008ae6;
+	width: auto;
+	height: 2em;
+	margin-left:5em;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  font-size: 0.2em;
+
+}
+.button-white-blue{
+	border: 2px solid #008ae6;
+	background-color: white;
+	color: #008ae6;
+	width: auto;
+	height: 2em;
+	margin-left:1em;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  font-size: 0.2em;
+
+}
+nav div{
+	display: inline-block;
+	padding-right: 2em;
+  padding-left: 2em;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+nav div:hover{
+	color: blue;
+}
+
+#bot-bar{
+	height: 45vh;
+}
+
+#bot-bar div{
+	display: inline-block;
+
+}
+#section1{
+  background-color: #ebebe0;
+}
+#section2{
+  background-color: #d7d7c1;
+}
+#section3{
+  background-color: #ebebe0;
+}
+
+.v-bars{
+
+  width: calc(100%/3);
+  height: 100vh;
+  float:left;
+  padding: 3em;
+  box-sizing: border-box;
+}
+
+.v-bars p{
+	font-size: 0.8em;
+}

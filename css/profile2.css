@@ -1,0 +1,230 @@
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:visit{
+  color: black;
+
+}
+h1{
+	margin:0;
+  font-size: 3vw;
+}
+h2{
+	margin:0;
+	font-size: 2vw;
+  
+
+}
+h5{
+	font-size: 1vw;
+}
+
+body{
+	margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+nav{
+	text-align: center;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  display: block;
+  width:100vw;
+
+}
+
+img{
+	height: 9em;
+	width: 12em;
+	display: inline-block;
+}
+
+iframe{
+	height: 16em;
+	width: 20em;
+}
+
+.top-bar{
+	opacity: 0.8;
+	background-image: url(../pictures/toroko2.jpg);
+	background-color: darkred;
+  background-size: cover;
+	margin:0;
+  height: 100vh;
+  color: white;
+
+  padding-top: 20vh;
+  position: relative; 
+
+}
+
+
+
+
+
+.top-bar-container{
+	padding-top: 3.5em;
+	padding-left: 2em;
+
+}
+.top-bar-container2{
+
+	position: absolute;
+	bottom: 5em;
+	height: 2em;
+	width: 100%;
+}
+
+.top-bar-container h5{
+  margin: 0em;
+  margin-top: 0.5em;
+
+}
+
+.top-bar-container2 div{
+	display: inline-block;
+}
+
+#email{
+	float:right;
+	padding-right: 3em;
+}
+
+.button-blue-white{
+	background-color: #008ae6;
+	width: auto;
+	height: 2em;
+	margin-left:5em;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  font-size: 0.2em;
+}
+
+.button-blue-white:hover{
+	background-color:#1aa3ff;
+	cursor: pointer;
+}
+
+
+.button-white-blue{
+	border: 2px solid #008ae6;
+	background-color: white;
+	color: #008ae6;
+	width: auto;
+	height: 2em;
+	margin-left:1em;
+	border-top-right-radius: 1em;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  font-size: 0.2em;
+
+}
+
+.icon{
+	width: 2em;
+	height: 2em;
+}
+nav div{
+	display: inline-block;
+	padding-right: 2em;
+  padding-left: 2em;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+nav div:hover{
+	color: blue;
+  cursor: pointer;
+}
+
+.bot-bar{
+	height: 100vh;
+
+}
+
+.bot-bar div{
+	display: inline-block;
+
+}
+#section1{
+  background-color: #ebebe0;
+}
+#section2{
+  background-color: #d7d7c1;
+}
+#section3{
+  background-color: #ebebe0;
+}
+
+.v-bars{
+
+  width: calc(100%/3);
+  height: 100vh;
+  float:left;
+  padding: 3em;
+  box-sizing: border-box;
+}
+
+.v-bars p{
+	font-size: 0.8em;
+}
+
+#back-video {
+  opacity: 0.5;
+	width: 98vw;
+	height: 100vh;
+}
+
+
+#animation{
+
+	height: 100vh;
+	background-size: cover;
+  animation-name: change;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+/*  animation-delay: 1s;*/
+  background-color:black;
+	background-image: url(../pictures/toroko2.jpg);
+ 
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.container{
+	margin: 5% 20%;
+}
+
+
+@keyframes change{
+  0% {
+    opacity: 0.6;
+  }
+
+  100%{
+    opacity: 1;
+
+  }
+}
+
+span img{
+	height: 2em;
+	width: 2em;
+}
